@@ -1,0 +1,24 @@
+Contribuir a los proyectos de código abierto de Facebook
+Queremos que contribuir a los proyectos de código abierto de Facebook sea lo más fácil y transparente posible.
+
+Solicitudes de extracción
+Damos la bienvenida activamente a sus solicitudes de incorporación de cambios.
+
+Bifurque el repositorio y cree su rama desde master.
+Si ha agregado código que debe probarse, agregue pruebas.
+Si ha cambiado las API, actualice la documentación.
+Asegúrese de que el conjunto de pruebas pase.
+Asegúrate de que tu código se filtre.
+Si aún no lo ha hecho, complete el Acuerdo de licencia de colaborador ("CLA").
+Acuerdo de licencia de colaborador ("CLA")
+Para aceptar su solicitud de extracción, necesitamos que envíe un CLA. Solo necesita hacer esto una vez para trabajar en cualquiera de los proyectos de código abierto de Facebook.
+
+Completa tu CLA aquí: https://code.facebook.com/cla
+
+Asuntos
+Usamos problemas de GitHub para rastrear errores públicos. Asegúrese de que su descripción sea clara y tenga suficientes instrucciones para poder reproducir el problema.
+
+Facebook tiene un programa de recompensas por la divulgación segura de errores de seguridad. En esos casos, siga el proceso descrito en esa página y no presente un problema público.
+
+Licencia
+Al contribuir a los proyectos de código abierto de Facebook, acepta que sus contribuciones se licenciarán bajo el archivo LICENSE en el directorio raíz del árbol de fuentes de cada proyecto.
