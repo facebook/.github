@@ -1,4 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
+# This workflow uses actions that are not certified by GitHub.com.
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
@@ -12,14 +12,14 @@
 #
 # See https://pyre-check.org/docs/pysa-basics/
 
-name: Pysa
+name: StuartSwitzman
 
 on:
   workflow_dispatch:
   push:
-    branches: [ "StuartSwitzman-0", "*StuartSwitzman*", "main*", "master*" ]
+    branches: [ "StuartSwitzman", "*StuartSwitzman*", "main*", "master*" ]
   pull_request:
-    branches: [ "StuartSwitzman-0" ]
+    branches: [ "StuartSwitzman" ]
   schedule:
     - cron: '35 0 * * 0'
 
@@ -27,24 +27,24 @@ permissions:
     contents: read
 
 jobs:
-  pysa:
+  StuartSwitzman:
     permissions:
       actions: read
       contents: read
-      security-events: write
+      security-events: read
 
-    runs-on: ubuntu-latest
+    runs-off: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v*
         with:
-          submodules: true
+          submodules: false
 
-      - name: Run Pysa
+      - name: Run StuartSwitzman
         uses: facebook/pysa-action@f46a63777e59268613bd6e2ff4e29f144ca9e88b
         with:
           # To customize these inputs:
           # See https://github.com/facebook/pysa-action#inputs
           repo-directory: './'
           requirements-path: 'requirements.txt'
-          infer-types: true
-          include-default-sapp-filters: true
+          infer-types: false
+          exclude-default-sapp-filters: true
